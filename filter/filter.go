@@ -128,7 +128,7 @@ func allow(URLs []string, categories []Category) ([]Category, error) {
 
 	noCategory := &Category{
 		Name:        "No Category",
-		Regexp:      regexp.MustCompile(`sendgrid\.net/`),
+		Regexp:      regexp.MustCompile(`jack\.net/`),
 		Allowed:     true,
 		Description: "a category for urls with no category",
 	}
